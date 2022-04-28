@@ -1,0 +1,26 @@
+<!doctype html>
+<title>Particulate sensor</title>
+
+{% if date %}
+  <h1>Date: {{ date }}</h1>
+{% else %}
+  <h1>Date: xxx</h1>
+{% endif %}
+
+{% if time %}
+  <h1>Time: {{ time }}</h1>
+{% else %}
+  <h1>Time: xxx</h1>
+{% endif %}
+
+{% if pm2pt5 %}
+  <h1>pm2.5: {{ pm2pt5 }} ug/m3</h1>
+{% else %}
+  <h1>pm2.5: xxx</h1>
+{% endif %}
+
+{% if pm10 %}
+  <h1>pm10: {{ pm10 }} ug/m3</h1>
+{% else %}
+  <h1>pm10: xxx</h1>
+{% endif %}
