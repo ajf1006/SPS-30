@@ -104,12 +104,13 @@ def meas_av(ser,samples):
     return pm2pt5_av,pm10_av
 
 def main():
-    ser,error = start_SPS30(5)
-    samples = 1
+    ser,error = start_SPS30(30)
+    samples = 30
     pm2pt5_av,pm10_av = meas_av(ser,samples)
     address = 'http://192.168.1.80:5000/receive-data'
     send_data(pm2pt5_av,pm10_av,address)
     stop_SPS30(ser)
 
-job = scheduler.add_job(main,'interval',minutes=1)
+job = scheduler.add_job(main,'cron',minute=10)
 scheduler.start()
+input('Press enter to stop')
