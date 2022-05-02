@@ -6,4 +6,4 @@ A reading is taken from the SPS-30 particulate sensor each hour and passed to a 
 
 The *local_server* directory contains the files needed to run a flask app on the local server.
 
-The *sensor* directory contains the that read the sensor and sent its data to the local server.
+The *sensor* directory contains the files that read the sensor and sent its data to the local server.
