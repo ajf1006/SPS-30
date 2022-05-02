@@ -107,7 +107,7 @@ def main():
     ser,error = start_SPS30(5)
     samples = 1
     pm2pt5_av,pm10_av = meas_av(ser,samples)
-    address = 'http://192.168.1.69'
+    address = 'http://192.168.1.69:5000/receive-data'
     send_data(pm2pt5_av,pm10_av,address)
     stop_SPS30(ser)
 
