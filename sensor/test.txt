@@ -1,2 +1,5 @@
 https://www.pythonanywhere.com/receive-data?date=2022-08-12&time=08-10&pm2pt5=0.84&pm10=0.88
 https://www.pythonanywhere.com/receive-data?date=2022-08-12&time=09-10&pm2pt5=2.42&pm10=2.54
+https://ajf1006.pythonanywhere.com/receive-data?date=2022-08-12&time=10-10&pm2pt5=5.62&pm10=14.9
+https://ajf1006.pythonanywhere.com/write-data?date=2022-08-12&time=11-10&pm2pt5=2.24&pm10=9.08
+https://ajf1006.pythonanywhere.com/write-data?date=2022-08-12&time=12-10&pm2pt5=2.84&pm10=9.9
