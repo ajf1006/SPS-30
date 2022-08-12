@@ -1,0 +1,2 @@
+https://www.pythonanywhere.com/receive-data?date=2022-08-12&time=08-10&pm2pt5=0.84&pm10=0.88
+https://www.pythonanywhere.com/receive-data?date=2022-08-12&time=09-10&pm2pt5=2.42&pm10=2.54
