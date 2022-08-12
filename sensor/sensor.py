@@ -113,4 +113,5 @@ def main():
 
 job = scheduler.add_job(main,'cron',minute=10)
 scheduler.start()
-input('Press enter to stop')
+while True:
+    sleep(1)

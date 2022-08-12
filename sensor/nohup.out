@@ -1,0 +1,6 @@
+/home/pi/.local/lib/python3.7/site-packages/apscheduler/util.py:436: PytzUsageWarning: The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+  return tzinfo.localize(dt)
+Press enter to stopTraceback (most recent call last):
+  File "sensor.py", line 116, in <module>
+    input('Press enter to stop')
+OSError: [Errno 9] Bad file descriptor
